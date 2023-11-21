@@ -2,15 +2,16 @@ package com.workintech.composiition;
 
 public class Bedroom {
     private String name;
-    Wall wall1= new Wall("dogu");
-    Wall wall2= new Wall("bati");
-    Wall wall3= new Wall("guney");
-    Wall wall4= new Wall("kuzey");
-    Ceiling ceiling=new Ceiling(2,PaintColor.WHITE);
-    Bed bed = new Bed(5,2,6,4,"kare");
-    Lamp lamp= new Lamp(87,true,LampType.LED_LAMP);
-    Wardrobe wardrobe= new Wardrobe(2,2,0.5);
-     Carpet carpet = new Carpet(3,4,PaintColor.GRAY);
+   private Wall wall1;
+   private Wall wall2;
+    private Wall wall3;
+   private Wall wall4;
+   private Ceiling ceiling;
+   private Bed bed ;
+   private Lamp lamp;
+  private   Wardrobe wardrobe;
+    private Carpet carpet ;
+
 
     public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp, Wardrobe wardrobe, Carpet carpet) {
         this.name = name;
