@@ -24,5 +24,12 @@ public class Lamp {
         return globRating;
     }
 
-
+    @Override
+    public String toString() {
+        return "Lamp{" +
+                "globRating=" + globRating +
+                ", battery=" + battery +
+                ", style=" + style +
+                '}';
+    }
 }

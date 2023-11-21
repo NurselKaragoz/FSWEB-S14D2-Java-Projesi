@@ -33,4 +33,15 @@ public class Bed {
       this.quilt = quilt;
       this.style = style;
    }
+
+   @Override
+   public String toString() {
+      return "Bed{" +
+              "pillows=" + pillows +
+              ", height=" + height +
+              ", sheets=" + sheets +
+              ", quilt=" + quilt +
+              ", style='" + style + '\'' +
+              '}';
+   }
 }

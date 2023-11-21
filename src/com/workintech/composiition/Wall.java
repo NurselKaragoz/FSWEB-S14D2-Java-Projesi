@@ -14,4 +14,11 @@ public class Wall {
         System.out.println(direction);
 
     }
+
+    @Override
+    public String toString() {
+        return "Wall{" +
+                "direction='" + direction + '\'' +
+                '}';
+    }
 }
